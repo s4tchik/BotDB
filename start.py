@@ -13,11 +13,11 @@ from aiogram.exceptions import TelegramBadRequest
 from datetime import datetime, timedelta
 
 # Конфигурация
-TOKEN = '7597499330:AAFV_qzG1EpcW6cxN-MY2ZJwcwVQWJFL9GQ'
-ADMIN_IDS = [1089550963]
-MODERATION_GROUP_ID = -1002655701588  # ID супергруппы модерации
-CHANNEL_ID = -1002658221513  # ID канала публикаций
-PAYMENT_TOKEN = 'YOUR_PAYMENT_PROVIDER_TOKEN'  # Замените на реальный токен платежной системы
+TOKEN = '1'
+ADMIN_IDS = [1]
+MODERATION_GROUP_ID = -1  # ID супергруппы модерации
+CHANNEL_ID = -1  # ID канала публикаций
+PAYMENT_TOKEN = '1'  # Замените на реальный токен платежной системы
 
 # Инициализация бота
 bot = Bot(token=TOKEN)
